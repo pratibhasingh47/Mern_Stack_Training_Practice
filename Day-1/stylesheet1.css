@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 222, 227);
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+#box2{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+#box3{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+#box4{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+#box5{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+#box6{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+#box7{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+#box8{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+img {
+    display: flex;
+    height: 70%;
+    width: 90%;
+    margin: 15px;
+    background-size: contain;
+    margin-top: 0;
+}
+
+button{
+    border: none;
+}
