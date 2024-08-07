@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 80px;
+    background-color: #0866ff;
+}
+
+.header_con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff;
+    gap: 2rem;
+}
+
+input {
+    height: 1.8rem;
+    width: 250px;
+}
+
+.password {
+    border: none;
+}
+
+button {
+    height: 1.8rem;
+    width: 100px;
+    padding-bottom: 0px;
+    color: #ffffff;
+    background-color: #023b97;
+}
+
+.phone {
+    font-size: 1.2rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: inline-block;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 550px;
+    height: 80px;
+}
+
+.free {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.name {
+    margin-top: 20px;
+    display: inline;
+}
+.email {
+    width: 300px;
+}
+.pass {
+    margin-top: 20px;
+}
+.bday{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.gender{
+    margin-top: 20px;
+    /* display: inline; */
+    display: flex;
+    align-items: center;
+}
+
+.G{
+    width: 50px;
+}
