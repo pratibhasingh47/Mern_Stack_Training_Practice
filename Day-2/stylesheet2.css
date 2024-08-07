@@ -71,19 +71,19 @@ main {
 .pass {
     margin-top: 20px;
 }
-.bday{
+.bday {
     margin-top: 20px;
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
-.gender{
+.gender {
     margin-top: 20px;
     /* display: inline; */
     display: flex;
     align-items: center;
 }
 
-.G{
+.G {
     width: 50px;
 }
