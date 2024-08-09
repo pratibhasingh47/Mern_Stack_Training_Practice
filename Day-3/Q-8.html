@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Table with Rowspan and Colspan</title>
+        <style>
+            table {
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxcXJBe8C3q_sI37yCqgVYD6s69g7vKbVJmQ&s");
+                background-size: cover;
+                width: 100%;
+                border-collapse: collapse;
+            }
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table with Rowspan and Colspan</title>
-    <style>
-        table {
-            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxcXJBe8C3q_sI37yCqgVYD6s69g7vKbVJmQ&s');
-            background-size: cover;
-            width: 100%;
-            border-collapse: collapse;
-        }
+            td,
+            th {
+                border: 1px solid black;
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
 
-        td,
-        th {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
-</head>
-
-<body>
-    <h1>Table Example</h1>
-    <table>
-        <tr>
-            <th colspan="2">Header 1</th>
-            <th>Header 2</th>
-        </tr>
-        <tr>
-            <td rowspan="2">Rowspan 2</td>
-            <td>Cell 1</td>
-            <td>Cell 2</td>
-        </tr>
-        <tr>
-            <td colspan="2">Colspan 2</td>
-        </tr>
-    </table>
-</body>
-
+    <body>
+        <h1>Table Example</h1>
+        <table>
+            <tr>
+                <th colspan="2">Header 1</th>
+                <th>Header 2</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Rowspan 2</td>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+            </tr>
+            <tr>
+                <td colspan="2">Colspan 2</td>
+            </tr>
+        </table>
+    </body>
 </html>
