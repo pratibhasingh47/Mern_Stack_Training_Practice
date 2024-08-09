@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                display: block;
+                align-items: center;
+                justify-content: center;
+                width: 25%;
+                margin: auto;
+                background-color: #ffe5ec;
+            }
+            input {
+                border: 1px solid gray;
+                background-color: antiquewhite;
+                padding: 10px;
+            }
+            h1 {
+                text-align: center;
+            }
+            button {
+                border: none;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+                background-color: lavender;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>College Admission Form</h1>
+        <form action="">
+            <label for="firstname">First name</label>
+            <input
+                type="text"
+                placeholder="First name"
+                id="firstname"
+            /><br /><br />
+            <label for="lastname">Last name</label>
+            <input type="text" placeholder="Last name" id="lastname" />
+            <br /><br />
+            <label for="date">DOB : </label>
+            <input type="date" id="date" />
+            <br /><br />
+            <label for="address">Address</label><br />
+            <input
+                type="text"
+                placeholder="Stree Address"
+                id="address"
+                style="width: 365px; margin-top: 10px"
+            /><br />
+            <input
+                type="text"
+                placeholder="City"
+                style="margin-top: 10px"
+            />&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="State" /><br />
+            <input
+                type="text"
+                placeholder="Zip Code"
+                style="margin-top: 10px"
+            />&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Country" />
+            <br /><br />
+            <label for="num">Mobile no.</label>
+            <input type="number" placeholder="XXX XXX XXXX" id="num" />
+            <br /><br />
+            <label for="email">Email</label>
+            <input type="text" placeholder="Email" id="email" />
+            <br /><br />
+            <label for="fname">Father's name</label>
+            <input
+                type="text"
+                placeholder="Father's name"
+                id="fname"
+            /><br /><br />
+            <label for="mname">Mother's name</label>
+            <input
+                type="text"
+                placeholder="Mother's name"
+                id="mname"
+            /><br /><br />
+            <span>Please select the course you want to pursue </span><br />
+            <input type="checkbox" id="box" /><span>Course 1</span><br />
+            <input type="checkbox" id="box" /><span>Course 2</span><br />
+            <input type="checkbox" id="box" /><span>Course 3</span><br />
+            <input type="checkbox" id="box" /><span>Course 4</span><br />
+            <input type="checkbox" id="box" /><span>Course 5</span><br />
+            <input type="checkbox" id="box" /><span>Course 6</span><br />
+
+            <button>Register Now !</button>
+        </form>
+    </body>
+</html>
