@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Favorite Foods</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favorite Foods</title>
-</head>
+    <body>
+        <h1>My Favorite Foods</h1>
+        <ol>
+            <li>
+                Pizza
+                <ul>
+                    <li>Dough</li>
+                    <li>Tomato Sauce</li>
+                    <li>Cheese</li>
+                    <li>Pepperoni</li>
+                </ul>
+            </li>
+            <li>
+                Burger
+                <ul>
+                    <li>Buns</li>
+                    <li>Beef Patty</li>
+                    <li>Lettuce</li>
+                    <li>Tomato</li>
+                </ul>
+            </li>
+            <li>
+                Sushi
+                <ul>
+                    <li>Rice</li>
+                    <li>Seaweed</li>
+                    <li>Fish</li>
+                    <li>Wasabi</li>
+                </ul>
+            </li>
+        </ol>
+        <h2>Submit Your Favorite Food</h2>
+        <form action="/submit-food" method="post">
+            <label for="food">Food Name:</label><br />
+            <input type="text" id="food" name="food" required /><br /><br />
 
-<body>
-    <h1>My Favorite Foods</h1>
-    <ol>
-        <li>Pizza
-            <ul>
-                <li>Dough</li>
-                <li>Tomato Sauce</li>
-                <li>Cheese</li>
-                <li>Pepperoni</li>
-            </ul>
-        </li>
-        <li>Burger
-            <ul>
-                <li>Buns</li>
-                <li>Beef Patty</li>
-                <li>Lettuce</li>
-                <li>Tomato</li>
-            </ul>
-        </li>
-        <li>Sushi
-            <ul>
-                <li>Rice</li>
-                <li>Seaweed</li>
-                <li>Fish</li>
-                <li>Wasabi</li>
-            </ul>
-        </li>
-    </ol>
-    <h2>Submit Your Favorite Food</h2>
-    <form action="/submit-food" method="post">
-        <label for="food">Food Name:</label><br>
-        <input type="text" id="food" name="food" required><br><br>
+            <label for="ingredients">Ingredients:</label><br />
+            <textarea
+                id="ingredients"
+                name="ingredients"
+                rows="4"
+                cols="50"
+                required
+            ></textarea
+            ><br /><br />
 
-        <label for="ingredients">Ingredients:</label><br>
-        <textarea id="ingredients" name="ingredients" rows="4" cols="50" required></textarea><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
-</body>
-
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
 </html>
