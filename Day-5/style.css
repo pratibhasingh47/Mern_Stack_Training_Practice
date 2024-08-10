@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    height: 80vh;
+    width: 100vw;
+}
+
+.pic {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.heading {
+    position: absolute;
+    text-align: left;
+    top: 10%;
+    left: 10%;
+    color: rgb(255, 248, 248);
+    font-size: 4rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+.text1 {
+    position: absolute;
+    text-align: left;
+    top: 40%;
+    left: 10%;
+    color: rgb(255, 248, 248);
+    font-size: 10rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+.section1 {
+    height: 400px;
+    width: 100vw;
+    background-color: #7da2a9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con1,
+.con2 {
+    height: 250px;
+    width: 500px;
+    padding: 0 20px;
+}
+
+.head1 {
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: right;
+    margin: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.head2 {
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: right;
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+.para1 {
+    text-align: justify;
+    padding-top: 40px;
+    font-size: 1rem;
+    color: azure;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.section2 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first {
+    width: 500px;
+    padding-top: 80px;
+}
+
+.mini1 {
+    font-size: 1.8rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 0 20px 20px 20px;
+}
+
+.mini2 {
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+.second {
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    width: 60vw;
+    height: 100%;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(217, 201, 217);
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.b1 {
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    padding: 70px 20px 20px 20px;
+}
+
+.b2 {
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    line-height: 20px;
+    text-align: justify;
+    padding: 20px 20px 20px 20px;
+}
+
+.third {
+    height: 550px;
+    width: 100vw;
+    background-color: #18181e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    height: 70%;
+    width: 400px;
+}
+
+.right {
+    height: 70%;
+    width: 500px;
+    color: white;
+}
+.books {
+    height: 100%;
+    width: 100%;
+}
+
+.head_1 {
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 750;
+    text-align: left;
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+.para2 {
+    font-size: 0.9rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-align: left;
+    margin: 40px;
+    text-align: justify;
+}
+
+.rm {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: #7da2a9 !important;
+    color: white;
+    margin: 40px;
+}
+
+
+.fourth{
+    height: auto;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery{
+    width: 500px;
+}
+
+.hd1{
+    font-size: 1.8rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 0 20px 20px 20px;
+}
+
+.hd2{
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+.images{
+    height: 100vh;
+    width: 50%;
+    color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem 1rem 1rem 1rem;
+    flex-wrap: wrap;
+}
+
+.picture{
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    object-fit: cover;
+}
