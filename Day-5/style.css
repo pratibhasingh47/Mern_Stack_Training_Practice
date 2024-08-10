@@ -211,8 +211,7 @@
     margin: 40px;
 }
 
-
-.fourth{
+.fourth {
     height: auto;
     padding-top: 80px;
     display: flex;
@@ -220,11 +219,11 @@
     align-items: center;
 }
 
-.gallery{
+.gallery {
     width: 500px;
 }
 
-.hd1{
+.hd1 {
     font-size: 1.8rem;
     font-family: "Lato", sans-serif;
     font-weight: 800;
@@ -235,7 +234,7 @@
     padding: 0 20px 20px 20px;
 }
 
-.hd2{
+.hd2 {
     font-size: 1rem;
     font-family: "Lato", sans-serif;
     font-weight: 500;
@@ -244,7 +243,7 @@
     text-align: justify;
 }
 
-.images{
+.images {
     height: 100vh;
     width: 50%;
     color: aquamarine;
@@ -256,7 +255,7 @@
     flex-wrap: wrap;
 }
 
-.picture{
+.picture {
     height: 400px;
     width: 400px;
     background-size: cover;
