@@ -398,7 +398,7 @@ body {
     width: 100px;
     padding: 10px 20px 10px 20px;
     background-color: #7da2a9;
-    color: #18181e;
+    color: #e0e0f0;
     font-size: 1rem;
 }
 
@@ -413,6 +413,18 @@ body {
     font-size: 0.8rem;
     font-family: "Lato", sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Base styles here... */
@@ -522,7 +534,7 @@ body {
         height: auto;
     }
 
-    .left{
+    .left {
         width: 90%;
         padding-top: 50px;
         height: auto;
@@ -547,10 +559,11 @@ body {
         margin: 20px 40px;
     }
 
-    .hd1{
+    .hd1 {
         padding: 20px;
     }
-    .hd2{
+
+    .hd2 {
         padding: 20px;
     }
 
@@ -559,7 +572,7 @@ body {
         padding: 20px;
     }
 
-    .count{
+    .count {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -567,7 +580,7 @@ body {
         height: max-content;
     }
 
-    .countbox{
+    .countbox {
         margin: 15px 10px;
         height: min-content;
     }
@@ -586,6 +599,7 @@ body {
     .gallery {
         width: 100%;
     }
+
     .fifth {
         flex-direction: column;
         align-items: center;
@@ -627,7 +641,7 @@ body {
     .lastRight,
     .lastLeft {
         width: 100%;
-        padding: 20px;
+        padding: 70px;
     }
 
     .last1 {
@@ -644,7 +658,9 @@ body {
     }
 
     #subBtn {
-        width: 100%;
+        width: 50%;
+        border: none;
+        color: #ecebeb;
     }
 }
 
@@ -759,14 +775,14 @@ body {
         width: 100%;
         height: auto;
     }
-    
-    .left{
+
+    .left {
         width: 85%;
         padding-top: 50px;
         height: auto;
     }
 
-    .right{
+    .right {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -793,7 +809,7 @@ body {
         margin: 20px 0;
     }
 
-    .count{
+    .count {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -801,7 +817,7 @@ body {
         height: max-content;
     }
 
-    .countbox{
+    .countbox {
         margin: 15px 10px;
     }
 
@@ -821,10 +837,11 @@ body {
         padding: 10px;
     }
 
-    .hd1{
+    .hd1 {
         padding: 20px;
     }
-    .hd2{
+
+    .hd2 {
         padding: 20px;
     }
 
