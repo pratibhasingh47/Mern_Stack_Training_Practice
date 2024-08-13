@@ -522,6 +522,10 @@ body {
         height: auto;
     }
 
+    .rm{
+        margin-left: 40px;
+    }
+    
     .books {
         width: 100%;
     }
@@ -596,6 +600,20 @@ body {
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* For Phones (up to 600px) */
 @media (max-width: 600px) {
@@ -785,7 +803,7 @@ body {
 
     .imgCon img {
         width: 100%;
-        height: 100%;
+        height: 90%;
         background-size: cover;
         object-fit: cover;
     }
@@ -798,11 +816,13 @@ body {
     .lastRight,
     .lastLeft {
         width: 100%;
-        padding: 10px;
+        padding: 50px;
     }
 
     .last1 {
         font-size: 1.2rem;
+        width: 250px;
+        margin: 0;
     }
 
     .last2,
@@ -815,6 +835,8 @@ body {
     }
 
     #subBtn {
-        width: 100%;
+        width: 50%;
+        border: none;
+        color: #ecebeb;
     }
 }
