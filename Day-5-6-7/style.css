@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .image {
     height: 80vh;
     width: 100vw;
@@ -265,8 +269,8 @@
 }
 
 .count {
-    width: 100%;
-    height: 400px;
+    width: 100vw;
+    height: 40vh;
     background-color: #7da2a9;
     display: flex;
     align-items: center;
@@ -304,7 +308,7 @@
 }
 
 .fifth {
-    width: 100%;
+    width: 100vw;
     height: 490px;
     display: flex;
     justify-content: center;
@@ -312,8 +316,9 @@
 }
 
 .imgCon {
-    height: min-content;
-    width: fit-content;
+    height: auto;
+    width: auto;
+    overflow: hidden;
 }
 
 .imgCon img {
@@ -321,6 +326,7 @@
     height: 500px;
     background-size: cover;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .last {
@@ -328,6 +334,7 @@
     align-items: center;
     justify-content: center;
     height: 50vh;
+    width: 100vw;
 }
 
 .lastRight {
@@ -397,6 +404,7 @@
 
 .ftr {
     height: 100px;
+    width: 100vw;
     background-color: #333333;
     display: flex;
     align-items: center;
@@ -404,4 +412,406 @@
     color: #ecebeb;
     font-size: 0.8rem;
     font-family: "Lato", sans-serif;
+}
+
+
+/* Base styles here... */
+
+/* Media Queries */
+
+/* For Tablets (up to 768px) */
+@media (max-width: 768px) {
+    .image {
+        height: 60vh;
+    }
+
+    .heading {
+        font-size: 3rem;
+        top: 5%;
+    }
+
+    .text1 {
+        font-size: 6rem;
+        top: 25%;
+    }
+
+    .section1 {
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .con1,
+    .con2 {
+        width: 100%;
+        padding: 0 10px;
+        height: min-content;
+    }
+
+    .head1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .head2 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .para1 {
+        font-size: 0.9rem;
+        line-height: 22px;
+        padding: 5px;
+    }
+
+    .section2 {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .first {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .mini1 {
+        font-size: 1.5rem;
+    }
+
+    .mini2 {
+        font-size: 0.9rem;
+    }
+
+    .second {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box {
+        height: 20vh;
+        width: 75%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .b1 {
+        margin: 0;
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    .b2 {
+        font-size: 0.8rem;
+    }
+
+    .third {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        height: auto;
+    }
+
+    .books {
+        width: 100%;
+    }
+
+    .head_1 {
+        font-size: 1.2rem;
+    }
+
+    .para2 {
+        font-size: 0.8rem;
+    }
+
+    .rm {
+        padding: 8px 16px;
+        margin: 20px 0;
+    }
+
+    .fourth {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .gallery {
+        width: 100%;
+    }
+
+    .images {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .picture {
+        width: 100%;
+        height: auto;
+    }
+
+    .fifth {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgCon img {
+        width: 100%;
+        height: auto;
+    }
+
+    .last {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .lastRight,
+    .lastLeft {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .last1 {
+        font-size: 1.5rem;
+    }
+
+    .last2,
+    .thirdlast {
+        font-size: 0.9rem;
+    }
+
+    .in {
+        width: 100%;
+    }
+
+    #subBtn {
+        width: 100%;
+    }
+}
+
+/* For Phones (up to 600px) */
+@media (max-width: 600px) {
+    .image {
+        height: 50vh;
+    }
+
+    .heading {
+        font-size: 2rem;
+        top: 2%;
+    }
+
+    .text1 {
+        font-size: 4rem;
+        top: 10%;
+    }
+
+    .section1 {
+        height: auto;
+        padding: 10px;
+    }
+
+    .con1,
+    .con2 {
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .head1 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .head2 {
+        font-size: 1rem;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .para1 {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+
+    .section2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .first {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mini1 {
+        font-size: 1.2rem;
+    }
+
+    .mini2 {
+        font-size: 0.8rem;
+    }
+
+    .second {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box {
+        height: 20vh;
+        width: 75%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .b1 {
+        margin: 0;
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    .b2 {
+        font-size: 0.8rem;
+    }
+
+    .third {
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        height: auto;
+    }
+    
+    .left{
+        width: 85%;
+        padding-top: 50px;
+        height: auto;
+    }
+
+    .right{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+
+    .books {
+        width: 100%;
+    }
+
+    .head_1 {
+        font-size: 1rem;
+        margin: 20px;
+    }
+
+    .para2 {
+        font-size: 0.7rem;
+        margin: 20px;
+    }
+
+    .rm {
+        padding: 6px 12px;
+        margin: 20px 0;
+    }
+
+    .count{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+    }
+
+    .countbox{
+        margin: 15px 10px;
+    }
+
+    .countbox h2 {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .tag {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        padding: 0;
+    }
+
+    .fourth {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .hd1{
+        padding: 20px;
+    }
+    .hd2{
+        padding: 20px;
+    }
+
+    .gallery {
+        width: 100%;
+    }
+
+    .images {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .picture {
+        width: 100%;
+        height: auto;
+    }
+
+    .fifth {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgCon img {
+        width: 100%;
+        height: auto;
+    }
+
+    .last {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .lastRight,
+    .lastLeft {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .last1 {
+        font-size: 1.2rem;
+    }
+
+    .last2,
+    .thirdlast {
+        font-size: 0.8rem;
+    }
+
+    .in {
+        width: 100%;
+    }
+
+    #subBtn {
+        width: 100%;
+    }
 }
