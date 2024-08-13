@@ -178,6 +178,7 @@
     width: 500px;
     color: white;
 }
+
 .books {
     height: 100%;
     width: 100%;
@@ -263,7 +264,7 @@
     object-fit: cover;
 }
 
-.count{
+.count {
     width: 100%;
     height: 400px;
     background-color: #7da2a9;
@@ -277,7 +278,7 @@
     letter-spacing: 0.5px;
 }
 
-#count1{
+#count1 {
     color: white;
     font-family: "Lato", sans-serif;
     font-weight: 500;
@@ -285,23 +286,24 @@
     letter-spacing: 0.5px;
 }
 
-.countbox{
+.countbox {
     height: 100px;
     width: 100px;
 }
 
 
-.countbox h2{
+.countbox h2 {
     font-size: 2rem;
     padding: 10px;
 }
-.tag{
+
+.tag {
     font-size: 1.8rem;
     text-transform: uppercase;
     padding: 10px;
 }
 
-.fifth{
+.fifth {
     width: 100%;
     height: 490px;
     display: flex;
@@ -309,38 +311,39 @@
     align-items: center;
 }
 
-.imgCon{
+.imgCon {
     height: min-content;
     width: fit-content;
 }
-.imgCon img{
+
+.imgCon img {
     width: 770px;
     height: 500px;
     background-size: cover;
     object-fit: cover;
 }
 
-.last{
+.last {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50vh;
 }
 
-.lastRight{
+.lastRight {
     height: 50vh;
     background-color: #7da2a9;
     width: 100%;
     padding: 5rem;
 }
 
-.lastLeft{
+.lastLeft {
     height: 50vh;
     background-color: #18181e;
     width: 100%;
 }
 
-.last1{
+.last1 {
     width: 400px;
     font-size: 1.8rem;
     font-family: "Lato", sans-serif;
@@ -351,7 +354,7 @@
     color: white;
 }
 
-.last2{
+.last2 {
     font-size: 1rem;
     font-family: "Lato", sans-serif;
     color: #ecebeb;
@@ -360,7 +363,7 @@
     letter-spacing: 1px;
 }
 
-.thirdlast{
+.thirdlast {
     width: 200px;
     font-size: 1rem;
     font-family: "Lato", sans-serif;
@@ -369,13 +372,14 @@
     color: white;
 }
 
-.lastLeft{
+.lastLeft {
     display: flex;
     padding: 10rem;
     flex-direction: column;
     gap: 2.5rem;
 }
-.in{
+
+.in {
     width: 500px;
     background-color: #18181e;
     border: 1px solid gray;
@@ -383,15 +387,15 @@
     padding: 10px 20px 10px 20px;
 }
 
-#subBtn{
+#subBtn {
     width: 100px;
-    padding: 10px 20px 10px 20px ;
+    padding: 10px 20px 10px 20px;
     background-color: #7da2a9;
     color: #18181e;
     font-size: 1rem;
 }
 
-.ftr{
+.ftr {
     height: 100px;
     background-color: #333333;
     display: flex;
