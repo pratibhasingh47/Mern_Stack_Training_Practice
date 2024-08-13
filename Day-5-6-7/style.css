@@ -522,10 +522,14 @@ body {
         height: auto;
     }
 
-    .rm{
-        margin-left: 40px;
+    .left{
+        width: 90%;
+        padding-top: 50px;
+        height: auto;
     }
-    
+
+
+
     .books {
         width: 100%;
     }
@@ -540,7 +544,14 @@ body {
 
     .rm {
         padding: 8px 16px;
-        margin: 20px 0;
+        margin: 20px 40px;
+    }
+
+    .hd1{
+        padding: 20px;
+    }
+    .hd2{
+        padding: 20px;
     }
 
     .fourth {
@@ -548,8 +559,44 @@ body {
         padding: 20px;
     }
 
+    .count{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+    }
+
+    .countbox{
+        margin: 15px 10px;
+        height: min-content;
+    }
+
+    .countbox h2 {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .tag {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        padding: 0;
+    }
+
     .gallery {
         width: 100%;
+    }
+    .fifth {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .imgCon img {
+        width: 100%;
+        height: 90%;
+        background-size: cover;
+        object-fit: cover;
     }
 
     .images {
