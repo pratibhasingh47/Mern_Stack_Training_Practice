@@ -136,7 +136,7 @@
             </div>
         </section>
 
-        <section class="count">
+        <!-- <section class="count">
             <div class="countbox" id="count1">
                 <h2>5K</h2>
                 <p class="tag">students</p>
@@ -153,7 +153,28 @@
                 <h2>250</h2>
                 <p class="tag">awards</p>
             </div>
+        </section> -->
+
+
+        <section class="count">
+            <div class="countbox" data-target="5000">
+                <h2>0</h2>
+                <p class="tag">students</p>
+            </div>
+            <div class="countbox" data-target="150">
+                <h2>0</h2>
+                <p class="tag">teachers</p>
+            </div>
+            <div class="countbox" data-target="45">
+                <h2>0</h2>
+                <p class="tag">winner</p>
+            </div>
+            <div class="countbox" data-target="250">
+                <h2>0</h2>
+                <p class="tag">awards</p>
+            </div>
         </section>
+        
 
         <section class="fifth">
             <div class="imgCon"><img src="img9.jpeg" alt="img1"></div>
@@ -189,6 +210,30 @@
 
     <footer class="ftr">Website Templates created with Website Builder Software.</footer>
 
+
+    <script>document.addEventListener('DOMContentLoaded', () => {
+        const counters = document.querySelectorAll('.countbox');
+        
+        counters.forEach(counter => {
+            const target = +counter.getAttribute('data-target');
+            const element = counter.querySelector('h2');
+            let count = 0;
+            
+            const updateCounter = () => {
+                const increment = target / 200; // Adjust the divisor for speed
+                if (count < target) {
+                    count = Math.min(count + increment, target);
+                    element.textContent = Math.floor(count);
+                    setTimeout(updateCounter, 10); // Adjust the timeout for speed
+                } else {
+                    element.textContent = target;
+                }
+            };
+            
+            updateCounter();
+        });
+    });
+    </script>
 </body>
 
 </html>
