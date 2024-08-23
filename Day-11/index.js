@@ -33,3 +33,12 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
+// Question 5: Arrays
+const numbers = [10, 20, 30, 40, 50];
+let sum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+}
+
+console.log('Sum of array elements:', sum);
