@@ -1,23 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript Tasks</title>
+    <script src="script.js" defer></script>
     <style>
-        #products{
-            display: grid;
-            grid-template-columns: repeat(3 , 1fr);
-            gap: 30px;
-            
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #3d3d3d;
+            margin: 0;
+            padding: 20px;
+            color: azure;
+            font-size: large;
+            font-weight: 600;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: azure;
+            font-size: small;
+            font-weight: 600;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 0;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: calc(100% - 22px);
+            margin: 10px 0;
+        }
+
+        form {
+            margin: 20px 0;
+            background-color: #777777;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #errorMessage {
+            margin-top: 10px;
+            color: red;
+        }
+
+        ul {
+            background-color: #929292;
+            padding: 20px;
+            border-radius: 8px;
+            list-style-type: none;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
+
 <body>
-    <!-- <button id="button">Stop Interval</button>
-    <button id="timeout">Stop Timeout</button> -->
-    <button id="product-button">Show Products</button>
-    <div id="products"></div>
-    <script src="./index.js"></script>
+
+    <!-- Task 1: Create and Append Elements -->
+    <button onclick="createAndAppendDiv()">Create and Append Div</button>
+
+    <!-- Task 2: Modify Existing Elements -->
+    <button onclick="changeParagraphsBackgroundColor()">Change Paragraph Backgrounds</button>
+    <p>This is the first paragraph.</p>
+    <p>This is the second paragraph.</p>
+
+    <!-- Task 3: Form Input Validation -->
+    <form id="nameForm">
+        <label for="nameInput">Name: </label>
+        <input type="text" id="nameInput">
+        <button type="submit">Submit</button>
+        <div id="errorMessage"></div>
+    </form>
+
+    <!-- Task 4: Dynamic List Creation -->
+    <label for="itemInput">Add Item: </label>
+    <input type="text" id="itemInput">
+    <button onclick="addItemToList()">Add</button>
+    <ul id="itemList"></ul>
+
+    <!-- Task 5: Toggle Visibility -->
+    <button onclick="toggleImageVisibility()">Toggle Image Visibility</button>
+    <img id="toggleImage" src="../../../Learning-Journey/Day-00/dragon.png" alt="Sample Image" style="display:block;">
+
 </body>
+
 </html>
